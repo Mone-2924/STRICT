@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 90px;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.logo-header img{
+    width: 80px;
+}
+.header h5{
+    margin-top: 17px;
+    margin-left: 3px;
+    color: #000;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1349px;
+}
+
+.box-info{
+    margin: 0 auto;
+    padding-top: 250px;
+    text-align: center;
+    justify-content: center;
+    background: url('../image/4k-backgrounds_065217465_309.jpg') no-repeat;
+    background-size: 100%;
+    height: 554px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(99, 1, 1);
+    color: rgb(255, 248, 248);
+}
+.box-info h1{
+    font-size: 100px;
+}
+.line-box-info{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 50%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: -50px;
+}
+.btn{
+    margin-top: 100px;
+}
+.btn a{
+    padding: 20px 50px 20px 50px;
+    background-color: rgba(131, 127, 127, 0.527);
+}
+
+
+.simple{
+   color: #000;
+   text-align: center;
+   padding-left: 350px;
+   padding-right: 350px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: rgb(204, 202, 202);
+}
+.simple p{
+    line-height: 40px;
+}
+
+
+.box-simple-item{
+    background-color: rgb(110, 110, 110);
+}
+.simple-item{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+  
+}
+.item-one-simple-item{
+    width: 350px;
+    margin-left: 100px;
+}
+.item-one-img {
+   margin-left: 70px;
+ 
+}
+.item-one-img img{
+    width: 100px;
+    border-radius: 50px;
+}
+.item-one-info{
+    text-align: center;
+}
+
+
+
+
+.box-image{
+    margin: 0 auto;
+    width: 1000px; 
+    padding-bottom: 50px;
+}
+.image-box{
+    display: flex;
+
+}
+
+.info-box-image{
+    text-align: center;
+    margin-top: 30px;
+}
+.ig{
+    margin-left: -50px;
+}
+.image-box-image{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+.box-input{
+    background: url(../image/4k-backgrounds_065217465_309.jpg) no-repeat;
+    background-size: 100%;
+    height: 600px;
+    color: rgb(252, 247, 247);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(151, 34, 34);
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: rgb(122, 35, 35);
+    font-size: 20px;
+  }
+
+.input{
+    margin: 0 auto;
+    width: 600px;
+}
+.input-info-h1-p{
+    text-align: center;
+   padding-top: 100px;
+}
+.input-login input{
+    width: 600px;
+    height: 30px;
+    background-color: rgba(174, 179, 184, 0.377);
+    margin-top: 50px;
+}
+.input-E-mail input{
+    width: 600px;
+    height: 30px;
+    background-color: rgba(174, 179, 184, 0.384);
+    margin-top: 25px;
+}
+.input-text input{
+    width: 600px;
+    height: 60px;
+    margin-top: 25px;
+    background-color: rgba(174, 179, 184, 0.425);
+}
+.input-radio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.input-radio-btn a{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgb(160, 158, 158);
+}
+
+
+.footer{
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
+}
+.footer-info{
+    margin-top: 10px;
+}
+.ikon-footer{
+    display: flex;
+}
+.ikon-one{
+    background-color: rgb(37, 130, 236);
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.ikon-one img{
+    margin-top: 16px;
+    margin-left: 12px;
+}
+.two-img{
+    display: flex;
+}
+.two img{
+    margin-left: 15px;
+}
+.tree-img img{
+   height: 15px;
+}
+.tree-img-two img{
+    height: 5px;
+    margin-left: -1px;
+    margin-top: -2px;
+}
+.fo img{
+    height: 15px;
+}
